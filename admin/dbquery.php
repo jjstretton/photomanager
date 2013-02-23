@@ -8,7 +8,7 @@ require '../include/header.php';
 	<form action='../actions/go.php' method='post'>
 		<input type='hidden' name='doAction' value='doQuery' />
 		Query:<br />
-		<textarea name='query' rows='4' cols='30'><?php if(array_key_exist('query', $_POST)) print $_POST['query'];?></textarea><br />
+		<textarea name='query' rows='4' cols='30'><?php if(array_key_exists('query', $_POST)) print $_POST['query'];?></textarea><br />
 		<input type='submit' />
 	</form>
 </div>

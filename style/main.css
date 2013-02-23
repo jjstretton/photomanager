@@ -50,6 +50,14 @@ div
 	border-radius: 0;
 }
 
+.errordiv {
+	border: solid 0.1em #FF3030;
+}
+
+.warningdiv {
+	border: solid 0.1em #FFCF40;
+}
+
 div div 
 {
 	background-color: #4C4C4C;
